@@ -1,0 +1,56 @@
+/*  font-style, font-size, color, line-height ,margin*/
+body {
+    background-image:url(ferme.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background: linear-gradient(90deg, #ff4d00, #ee00ff); */
+    width:90%;
+    margin:center;
+}
+blockquote{
+    font-style: italic;
+    
+}
+.villagois{
+    color: blueviolet;
+
+}
+
+
+.fermier{
+    color: brown;
+}
+.titleH{
+    color: yellow;
+}
+
+.bad{
+    color: red;
+}
+.good{
+    color: green;
+}
+table{
+    background-color: white;
+}
+
+p {
+    display: flex;
+  }
+  img{
+    float: left;
+    margin: 20%;
+  }
+  
+/* en dessous a verifier */
+  img{
+    flex:1 200px;
+    justify-content:center;
+  }
+
+  img-of-type{
+    flex: 2 200px;
+    justify-content:center;
+
+  }
+  /* au dessus a verifier */
